@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'steady' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for steady
+  # - CollectionKit (2.0.2)
+  #- FoldingCell (3.1.4)
+  #- lottie-ios (2.5.0)
+  pod 'CollectionKit'
+  pod "CollectionKit/WobbleAnimator"
+  pod 'FoldingCell'
+  pod 'lottie-ios'
+  pod "YetAnotherAnimationLibrary"
+  pod 'Alamofire'
+  pod 'SwiftKeychainWrapper'
+
+end
